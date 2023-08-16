@@ -1,0 +1,25 @@
+{
+  "name": "backend-spotify",
+  "version": "1.0.0",
+  "description": "Backend for spotify clone using ExpressJS and MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "start" : "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ExpressJS",
+    "MongoDB",
+    "Spotify",
+    "Streaming"
+  ],
+  "author": "thevinitgupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
